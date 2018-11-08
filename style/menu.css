@@ -1,0 +1,8 @@
+.fight{background:skyblue;height:150;width:300;position:absolute;display:none;}
+.i1{position:absolute;top:100;left:0;width:50;}
+.i2{position:absolute;top:100;left:0;display:none;width:50;}
+.i3{position:absolute;top:150;left:0;width:300;height:10;background:green;}
+.i4{position:absolute;top:100;left:10;width:50;}
+.notice{width:150;height:75;border: solid 1px black;background:#ffffff;
+position:absolute;top:125;left:50;display:none;}
+.shop{position:absolute;display:none;}
