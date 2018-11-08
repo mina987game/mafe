@@ -1,0 +1,93 @@
+<head>
+<link href='style/menu.css' type="text/css" rel="stylesheet">
+<title>M.A.F.E.</title>
+<link rel='icon' type="image/x-icon" href='texture/0.png'>
+</head>
+<body>
+<div>
+<div id='l1'>lvl:1</div>
+<div id='x1'>xp:0/100</div>
+<div><img title='золото' src='texture/g.png'><a style='color:gold' id='g1'>0</a></div>
+<div><img title='энергия' src='texture/xp.png'><a style='color:blue' id='e1'>0</a></div>
+</div>
+
+<div class='menu' id='menu'>
+<div onclick='on1()' style='width:50'>
+<div style="position:relative ; left:20px;  top:20px;">бой</div>
+<img src='texture/b2.png'>
+</div>
+<div onclick='on2()' style='width:60'>
+<div style="position:relative ; left:10px;  top:20px;">магазин</div>
+<img src='texture/b2.png' >
+</div>
+<div onclick='on3()' style='width:70'>
+<div style="position:relative ; left:3px;  top:20px;">сайт игры</div>
+<img src='texture/b2.png' >
+</div>
+</div>
+
+<div class='fight' id='fight'>
+<div align='center'><a style='color:green;' id='php'></a>/<a style='color:red;' id='bhp'></a></div> 
+<img src='' class='i1' id='i1'><!--игрок-->
+<div class='i3' id='i3'></div><!--ландшафт-->
+<img src='' class='i4' id='i4'><!--бот-->
+<div onclick='on11()' style='width:60;position:absolute; top:150;'>
+<div style="position:relative ; left:10px;  top:20px;">сдаться</div>
+<img src='texture/b2.png' >
+</div>
+<img id='i2' class='i2' src='texture/a1.png'>
+</div>
+
+
+
+<div class='notice' id='notice' align='center'>
+<a id='notice_text'></a>
+
+<div onclick='on16()' style='width:70;position:absolute;top:25;left:35'>
+<div style="position:relative ; left:3px;  top:20px;">ок</div>
+<img src='texture/b2.png' >
+</div>
+
+</div>
+
+
+
+
+<div class='shop' id='shop'>
+<br>
+<div onclick='s1()' style='width:70'>
+<div style="position:relative ; left:0px;  top:0px;"><img title='энергия' src='texture/xp.png'>+1 <br> <img title='золото' src='texture/g.png'><a style='color:gold;'>10
+<img src='texture/b2.png'>
+<a style='position:relative ;top:-25'>купить</a></div>
+
+
+</div>
+
+
+<div onclick='s2()' style='width:70'>
+<div style="position:relative ; left:0px;  top:0px;">atk+1 <br> <img title='золото' src='texture/g.png'><a style='color:gold;'>25
+<img src='texture/b2.png'>
+<a style='position:relative ;top:-25'>купить</a></div>
+
+</div>
+
+<div onclick='on21()' style='width:70;position:relative;top:-25'>
+<div style="position:relative ; left:3px;  top:20px;">выход</div>
+<img src='texture/b2.png' >
+</div
+
+
+</div>
+</div>
+
+</body>
+
+
+<script src="script/button.js">
+</script>
+<script src="script/game.js">
+</script>
+
+
+
+
