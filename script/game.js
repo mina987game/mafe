@@ -46,27 +46,9 @@ document.onkeyup = function checkKeycode(event){
    keycode = event.which; 
 if(playing==true){
 
-if(keycode==39){
-if((x<250)&&(x<(xb-50))){
-x+=25;
-document.getElementById('i1').style.left=x;}
-document.getElementById('i1').src=skin[lvl][1];
-look=1}
-
-
-if(keycode==37){
-if(x>0){
-x-=25;
-document.getElementById('i1').style.left=x;}
-document.getElementById('i1').src=skin[lvl][0];
-look=0}
-
-
-/*if(keycode==38){bot();}//удалить
-if(keycode==40){clearInterval(timerb);}//удалить*/
-
-
-if((keycode==32)&&(atack==false)){atack=true;atacked();}
+if(keycode==39){btn1()}
+if(keycode==37){btn2()}
+if(keycode==32){btn3()}
 }
 
 }
@@ -107,4 +89,4 @@ a++;},250);  }
 
 
 
-game_time=setInterval(function(){if(energy<10){energy++;newdatas()}},90000);
+game_time=setInterval(function(){if(energy<10){energy++;newdatas()}},60000);

@@ -32,9 +32,9 @@ playing=false;
 }
 
 //действие если вы проиграли
-function on12(){on11();notice_text.innerHTML='вы проиграли';on15();}
+function on12(){on11();alert_text(1);on15();}
 //действие если вы выиграли
-function on13(){on11();notice_text.innerHTML='вы победили';on15();}
+function on13(){on11();alert_text(2);on15();}
 //действие если нет энергии
 function on14(){notice_text.innerHTML='мало энергии';on15();}
 //открыть оповещение
@@ -103,10 +103,10 @@ newdatas();
 s4()}else{s3()}}
 
 
-function s3(){on21();notice_text.innerHTML='мало денег';on15();}
+function s3(){on21();alert_text(3);on15();}
 
 
-function s4(){on21();notice_text.innerHTML='куплено';on15();}
+function s4(){on21();alert_text(4);on15();}
 
 
 
